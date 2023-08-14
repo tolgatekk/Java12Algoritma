@@ -1,16 +1,23 @@
 package lesson001;
 
+import java.util.Scanner;
+
+import org.w3c.dom.ls.LSOutput;
+
 public class Question1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	Scanner scanner = new Scanner(System.in);
+	String isim;
+	String soyisim;
+	System.out.println("isim giriniz");
+	isim = scanner.next();
+	System.out.println("soyisim giriniz");
+	soyisim = scanner.next();
+	System.out.println("Hoşgeldiniz + isim + " " + soyisim);
 
-		
-	System.out.println("Github Denemesi");
-	
-	//Class İsimleri PascalCase tarzında isimlendirilir
-	
-	
+
+
 	}
 
 }
